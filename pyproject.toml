@@ -55,7 +55,7 @@ myst-parser = "^2.0.0"
 furo = ">=2023.9.10,<2025.0.0"
 sphinxext-opengraph = "^0.9.1"
 sphinx-copybutton = "^0.5.2"
-sphinx-autobuild = "^2021.3.14"
+sphinx-autobuild = ">=2021.3.14,<2025.0.0"
 protobuf = ">=4.21.6" # Added to address build issues with readthedocs.
 cffi = ">=1.10.0" # Added to address build issues with readthedocs. pyo3_runtime.PanicException: Python API call failed
 
