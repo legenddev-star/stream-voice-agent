@@ -60,7 +60,7 @@ protobuf = ">=4.21.6" # Added to address build issues with readthedocs.
 cffi = ">=1.10.0" # Added to address build issues with readthedocs. pyo3_runtime.PanicException: Python API call failed
 
 [tool.poetry.group.dev.dependencies]
-pre-commit = "^3.6.0"
+pre-commit = ">=3.6,<5.0"
 python-dotenv = "^1.0.0"
 
 
